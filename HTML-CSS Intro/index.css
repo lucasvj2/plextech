@@ -45,4 +45,87 @@ p {
   background-color: blue;
 }
 
-/* TODO: Add CSS for the rest of your solution below */
+.row1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.blue1 {
+  width: 80px;
+  background-color: blue;
+}
+
+.red1 {
+  width: 80px;
+  background-color: red;
+}
+
+.red2 {
+  background-color: red;
+  flex: 1
+}
+
+.blue2 {
+  background-color: blue;
+  width: 80px;
+}
+
+.wrapper1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.red3 {
+  background-color: red;
+  width: 40px;
+}
+
+.wrapper2 {
+  flex: 1;
+  display: flex;
+  background-color: red;
+  justify-content: center;
+}
+
+.blue4 {
+  background-color: blue;
+  width: 80px
+}
+
+.wrapper3 {
+  background-color: blue;
+  width: 100%;
+  display: flex;
+}
+.red5 {
+  width: 80px;
+  background-color: red;
+}
+.green1 {
+  flex: 1;
+  background-color: green;
+  height: 20px;
+  align-self: center;
+}
+.wrapper4 {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.yellow{
+  width: 80px;
+  background-color: yellow;
+}
+.wrapper5{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex: 1
+}
+.yellow2{
+  flex: 1;
+  background-color: yellow;
+}

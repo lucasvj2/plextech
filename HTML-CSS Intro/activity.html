@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="description" content="Free Web tutorials for HTML and CSS">
-        <meta name="author" content="John Doe">
-        <title>A Meaningful Page Title</title>
-    </head>
-    <body>
-        
-    </body>
+  <head>
+    <meta name="description" content="html page that im doing" />
+    <meta name="author" content="lucas Johansson" />
+    <title>wowowowowowowowoow html</title>
+    <link rel="icon" type="image/x-icon" href="./images/example.png" />
+    <link rel="stylesheet" href="./example.css"
+  </head>
+  <body id="body">
+    <div class="header">
+      <h1 class="title">fantastic website</h1>
+      <div class="modeButtons">
+        <button onclick="dark()">Dark Mode</button>
+        <button onclick="light()">Light Mode</button>
+      </div>
+      <script>
+        let body = document.getElementById("body");
+        const dark = () => {
+          body.style.backgroundColor = "#575757";
+          body.style.color = "#ffffff";
+        };
+        const light = () => {
+          body.style.backgroundColor = "#ffffff";
+          body.style.color = "#363636";
+        };
+      </script>
+    </div>
+    <div class="middle">
+      <div class="aside">Aside</div>
+      <div class="article">
+        Article
+        <div class="format">
+          <img />
+          <img />
+          <img />
+        </div>
+      </div>
+    </div>
+    <div class="footer">Footer</div>
+  </body>
 </html>
